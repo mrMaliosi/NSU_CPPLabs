@@ -1,0 +1,420 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The system is: Windows - 10.0.18362 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.12.2023 9:24:23.
+      Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.13
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/3.27.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: g++ 
+      Build flags: --coverage;-fprofile-arcs;-ftest-coverage
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+      (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+      
+      Сборка начата 15.12.2023 9:24:24.
+      Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\3.27.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.68
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/3.27.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-oovnav"
+      binary: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-oovnav"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-oovnav'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_61ea7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.12.2023 9:24:25.
+        Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oovnav\\cmTC_61ea7.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_61ea7.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oovnav\\Debug\\".
+          Создание каталога "cmTC_61ea7.dir\\Debug\\cmTC_61ea7.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_61ea7.dir\\Debug\\cmTC_61ea7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61ea7.dir\\Debug\\\\" /Fd"cmTC_61ea7.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27045 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61ea7.dir\\Debug\\\\" /Fd"cmTC_61ea7.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oovnav\\Debug\\cmTC_61ea7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-oovnav/Debug/cmTC_61ea7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-oovnav/Debug/cmTC_61ea7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_61ea7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_61ea7.vcxproj -> C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oovnav\\Debug\\cmTC_61ea7.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_61ea7.dir\\Debug\\cmTC_61ea7.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_61ea7.dir\\Debug\\cmTC_61ea7.tlog\\cmTC_61ea7.lastbuildstate".
+        Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oovnav\\cmTC_61ea7.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-lzvqx6"
+      binary: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-lzvqx6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " --coverage -fprofile-arcs -ftest-coverage"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-lzvqx6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_38f8b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.12.2023 9:24:26.
+        Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_38f8b.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\Debug\\".
+          Создание каталога "cmTC_38f8b.dir\\Debug\\cmTC_38f8b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_38f8b.dir\\Debug\\cmTC_38f8b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_38f8b.dir\\Debug\\\\" /Fd"cmTC_38f8b.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  --coverage -fprofile-arcs -ftest-coverage "E:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27045 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          
+          cl /c /Zi /W1 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_38f8b.dir\\Debug\\\\" /Fd"cmTC_38f8b.dir\\Debug\\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  --coverage -fprofile-arcs -ftest-coverage "E:\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        cl : командная строка warning D9002: пропуск неизвестного параметра "--coverage" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+        cl : командная строка warning D9002: пропуск неизвестного параметра "-fprofile-arcs" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+        cl : командная строка warning D9002: пропуск неизвестного параметра "-ftest-coverage" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\Debug\\cmTC_38f8b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-lzvqx6/Debug/cmTC_38f8b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-lzvqx6/Debug/cmTC_38f8b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_38f8b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_38f8b.vcxproj -> C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\Debug\\cmTC_38f8b.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_38f8b.dir\\Debug\\cmTC_38f8b.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_38f8b.dir\\Debug\\cmTC_38f8b.tlog\\cmTC_38f8b.lastbuildstate".
+        Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (ClCompile конечный объект) -> 
+          cl : командная строка warning D9002: пропуск неизвестного параметра "--coverage" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+          cl : командная строка warning D9002: пропуск неизвестного параметра "-fprofile-arcs" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+          cl : командная строка warning D9002: пропуск неизвестного параметра "-ftest-coverage" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lzvqx6\\cmTC_38f8b.vcxproj]
+        
+            Предупреждений: 3
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-fkyx2o"
+      binary: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-fkyx2o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-fkyx2o'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_0aefe.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.12.2023 9:24:29.
+        Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\cmTC_0aefe.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0aefe.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\Debug\\".
+          Создание каталога "cmTC_0aefe.dir\\Debug\\cmTC_0aefe.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0aefe.dir\\Debug\\cmTC_0aefe.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0aefe.dir\\Debug\\\\" /Fd"cmTC_0aefe.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27045 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0aefe.dir\\Debug\\\\" /Fd"cmTC_0aefe.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\src.c"
+          src.c
+          
+        C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\src.c(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\cmTC_0aefe.vcxproj]
+        Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\cmTC_0aefe.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\cmTC_0aefe.vcxproj" (целевой объект по умолчанию) (1) ->
+        (ClCompile конечный объект) -> 
+          C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\src.c(1): fatal error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkyx2o\\cmTC_0aefe.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-rogznz"
+      binary: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-rogznz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-rogznz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_b9a73.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.12.2023 9:24:30.
+        Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\cmTC_b9a73.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b9a73.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\Debug\\".
+          Создание каталога "cmTC_b9a73.dir\\Debug\\cmTC_b9a73.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b9a73.dir\\Debug\\cmTC_b9a73.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9a73.dir\\Debug\\\\" /Fd"cmTC_b9a73.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27045 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9a73.dir\\Debug\\\\" /Fd"cmTC_b9a73.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\Debug\\cmTC_b9a73.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-rogznz/Debug/cmTC_b9a73.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-rogznz/Debug/cmTC_b9a73.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b9a73.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthreads.lib" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\cmTC_b9a73.vcxproj]
+        Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\cmTC_b9a73.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\cmTC_b9a73.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Link конечный объект) -> 
+          LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthreads.lib" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rogznz\\cmTC_b9a73.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-v553pu"
+      binary: "C:/Users/\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440/Desktop/\u0423\u043d\u0438\u0432\u0435\u0440/2 \u043a\u0443\u0440\u0441/\u041e\u041e\u041f/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-v553pu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-v553pu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" cmTC_a0a31.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=15.0 /v:n
+        Microsoft (R) Build Engine версии 15.9.21+g9802d43bc3 для .NET Framework
+        (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+        
+        Сборка начата 15.12.2023 9:24:30.
+        Проект "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\cmTC_a0a31.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_a0a31.dir\\Debug\\".
+          Создание каталога "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\Debug\\".
+          Создание каталога "cmTC_a0a31.dir\\Debug\\cmTC_a0a31.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_a0a31.dir\\Debug\\cmTC_a0a31.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0a31.dir\\Debug\\\\" /Fd"cmTC_a0a31.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27045 для x86
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0a31.dir\\Debug\\\\" /Fd"cmTC_a0a31.dir\\Debug\\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\Debug\\cmTC_a0a31.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-v553pu/Debug/cmTC_a0a31.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/CMakeFiles/CMakeScratch/TryCompile-v553pu/Debug/cmTC_a0a31.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a0a31.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthread.lib" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\cmTC_a0a31.vcxproj]
+        Сборка проекта "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\cmTC_a0a31.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\cmTC_a0a31.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Link конечный объект) -> 
+          LINK : fatal error LNK1104: эх єфрхЄё  юЄъЁ√Є№ Їрщы "pthread.lib" [C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v553pu\\cmTC_a0a31.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.44
+        
+      exitCode: 1
+...

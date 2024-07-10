@@ -1,0 +1,10 @@
+^C:\USERS\ВЛАДИМИР\DESKTOP\УНИВЕР\2 КУРС\ООП\VSCODE\BUILD\CMAKEFILES\159BC718F2121323C7A7702CC30F608F\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/VSCode" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/VSCode/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/VSCode/build/start.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

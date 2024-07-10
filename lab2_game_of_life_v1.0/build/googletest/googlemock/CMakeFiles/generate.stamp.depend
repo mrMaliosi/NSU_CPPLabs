@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock/CMakeLists.txt
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock/cmake/gmock.pc.in
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock/cmake/gmock_main.pc.in
+E:/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+E:/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+E:/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake

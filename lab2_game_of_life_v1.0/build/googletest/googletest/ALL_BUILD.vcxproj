@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0EF025C5-C61E-3A44-8F65-2280E7C1FDC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\include;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\include;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\include;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\include;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build" --check-stamp-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/googletest/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\Config.cmake.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\internal_utils.cmake;E:\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;E:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython\Support.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython3.cmake;E:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build" --check-stamp-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/googletest/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\Config.cmake.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\internal_utils.cmake;E:\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;E:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython\Support.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython3.cmake;E:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build" --check-stamp-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/googletest/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\Config.cmake.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\internal_utils.cmake;E:\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;E:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython\Support.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython3.cmake;E:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build" --check-stamp-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/googletest/googletest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\Config.cmake.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\gtest_main.pc.in;C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\googletest\googletest\cmake\internal_utils.cmake;E:\CMake\share\cmake-3.27\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;E:\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython\Support.cmake;E:\CMake\share\cmake-3.27\Modules\FindPython3.cmake;E:\CMake\share\cmake-3.27\Modules\FindThreads.cmake;E:\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\ZERO_CHECK.vcxproj">
+      <Project>{ED344F7B-4F57-326D-9B3E-B2B54A570180}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\gtest.vcxproj">
+      <Project>{5271489D-559B-3DDF-9EC2-6973520D2207}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Владимир\Desktop\Универ\2 курс\ООП\Malinovskiy_nachalo\lab2_game_of_life_v1.0\build\googletest\googletest\gtest_main.vcxproj">
+      <Project>{C10E1EC3-01B4-32D3-939F-26B1DB21C4E7}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

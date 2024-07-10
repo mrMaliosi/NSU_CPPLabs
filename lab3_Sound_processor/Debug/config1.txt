@@ -1,0 +1,5 @@
+mute 1 2
+mute 3 4
+mix $2
+mix $1
+mute 5 6

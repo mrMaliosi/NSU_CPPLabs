@@ -1,0 +1,4 @@
+parcer:
+	mute: code = 1 
+	mix: code = 2 
+	?: code = 3 

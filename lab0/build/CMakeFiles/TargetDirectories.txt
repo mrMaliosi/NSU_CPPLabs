@@ -1,0 +1,3 @@
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/start.dir
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/ZERO_CHECK.dir

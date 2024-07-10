@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/CMakeLists.txt
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/cmake/Config.cmake.in
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/cmake/gtest.pc.in
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/cmake/gtest_main.pc.in
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/cmake/internal_utils.cmake
+E:/CMake/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+E:/CMake/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake
+E:/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+E:/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+E:/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPython/Support.cmake
+E:/CMake/share/cmake-3.27/Modules/FindPython3.cmake
+E:/CMake/share/cmake-3.27/Modules/FindThreads.cmake
+E:/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+E:/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake

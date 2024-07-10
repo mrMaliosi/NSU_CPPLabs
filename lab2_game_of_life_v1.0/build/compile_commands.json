@@ -1,0 +1,74 @@
+[
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/include\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest\"  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o CMakeFiles\\Tests.dir\\Tests\\test.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\Tests\\test.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\Tests\\test.cpp",
+  "output": "CMakeFiles\\Tests.dir\\Tests\\test.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o CMakeFiles\\game_of_life.dir\\lab2.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\lab2.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\lab2.cpp",
+  "output": "CMakeFiles\\game_of_life.dir\\lab2.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o CMakeFiles\\game_of_life.dir\\field\\field.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\field\\field.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\field\\field.cpp",
+  "output": "CMakeFiles\\game_of_life.dir\\field\\field.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o CMakeFiles\\game_of_life.dir\\MagicWord\\MagicWord.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\MagicWord\\MagicWord.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\MagicWord\\MagicWord.cpp",
+  "output": "CMakeFiles\\game_of_life.dir\\MagicWord\\MagicWord.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o CMakeFiles\\game_of_life.dir\\UI\\UI.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\UI\\UI.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\UI\\UI.cpp",
+  "output": "CMakeFiles\\game_of_life.dir\\UI\\UI.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o field\\CMakeFiles\\field.dir\\field.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\field\\field.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\field\\field.cpp",
+  "output": "field\\CMakeFiles\\field.dir\\field.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o UI\\CMakeFiles\\UI.dir\\UI.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\UI\\UI.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\UI\\UI.cpp",
+  "output": "UI\\CMakeFiles\\UI.dir\\UI.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe  --coverage -fprofile-arcs -ftest-coverage -g -std=gnu++17 -o MagicWord\\CMakeFiles\\MagicWord.dir\\MagicWord.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\MagicWord\\MagicWord.cpp\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\MagicWord\\MagicWord.cpp",
+  "output": "MagicWord\\CMakeFiles\\MagicWord.dir\\MagicWord.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -I\"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock/include\" -I\"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/include\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest\"  --coverage -fprofile-arcs -ftest-coverage -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googlemock\\src\\gmock-all.cc\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googlemock\\src\\gmock-all.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock/include\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googlemock\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/include\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest\"  --coverage -fprofile-arcs -ftest-coverage -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googlemock\\src\\gmock_main.cc\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googlemock\\src\\gmock_main.cc",
+  "output": "googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -I\"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/include\" -I\"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest\"  --coverage -fprofile-arcs -ftest-coverage -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googletest\\src\\gtest-all.cc\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.obj"
+},
+{
+  "directory": "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest/include\" -isystem \"C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/googletest/googletest\"  --coverage -fprofile-arcs -ftest-coverage -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.obj -c \"C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googletest\\src\\gtest_main.cc\"",
+  "file": "C:\\Users\\Владимир\\Desktop\\Универ\\2 курс\\ООП\\Malinovskiy_nachalo\\lab2_game_of_life_v1.0\\googletest\\googletest\\src\\gtest_main.cc",
+  "output": "googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.obj"
+}
+]

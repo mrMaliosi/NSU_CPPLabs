@@ -1,0 +1,119 @@
+Start testing: Nov 02 20:09 Томск (зима)
+----------------------------------------------------------
+1/1 Testing: TestBitset
+1/1 Test: TestBitset
+Command: "C:/Users/Р’Р»Р°РґРёРјРёСЂ/Desktop/РЈРЅРёРІРµСЂ/2 РєСѓСЂСЃ/РћРћРџ/Malinovskiy_nachalo/lab1_bitset/build/Tests.exe"
+Directory: C:/Users/Р’Р»Р°РґРёРјРёСЂ/Desktop/РЈРЅРёРІРµСЂ/2 РєСѓСЂСЃ/РћРћРџ/Malinovskiy_nachalo/lab1_bitset/build
+"TestBitset" start time: Nov 02 20:09 Томск (зима)
+Output:
+----------------------------------------------------------
+[==========] Running 22 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 22 tests from TestBitset
+[ RUN      ] TestBitset.simple_test1
+1
+[       OK ] TestBitset.simple_test1 (0 ms)
+[ RUN      ] TestBitset.simple_test2
+1
+[       OK ] TestBitset.simple_test2 (0 ms)
+[ RUN      ] TestBitset.simple_test3
+1
+1
+[       OK ] TestBitset.simple_test3 (0 ms)
+[ RUN      ] TestBitset.simple_test4
+0 0
+64 64
+33 33
+2 2
+000000000000000000000000000000010 000000000000000000000000000000010
+1
+0
+1
+1
+[       OK ] TestBitset.simple_test4 (0 ms)
+[ RUN      ] TestBitset.simple_test5
+1
+1
+[       OK ] TestBitset.simple_test5 (0 ms)
+[ RUN      ] TestBitset.simple_test6
+00000000000000000000000000000001
+00000000000000000000000000000001
+1
+1
+[       OK ] TestBitset.simple_test6 (0 ms)
+[ RUN      ] TestBitset.simple_test7
+1
+[       OK ] TestBitset.simple_test7 (0 ms)
+[ RUN      ] TestBitset.simple_test8
+1
+[       OK ] TestBitset.simple_test8 (0 ms)
+[ RUN      ] TestBitset.simple_test9
+1
+[       OK ] TestBitset.simple_test9 (0 ms)
+[ RUN      ] TestBitset.simple_test10
+00000000000000000000000000000001
+10000000000000000000000000000000
+1
+[       OK ] TestBitset.simple_test10 (0 ms)
+[ RUN      ] TestBitset.simple_test11
+1
+1
+[       OK ] TestBitset.simple_test11 (0 ms)
+[ RUN      ] TestBitset.simple_test12
+00000000000000000000000000000000
+00000000000000000000000000000000
+1
+1
+1
+[       OK ] TestBitset.simple_test12 (0 ms)
+[ RUN      ] TestBitset.simple_test13
+00000000000000000000000000000001
+00000000000000000000000000000000
+1
+[       OK ] TestBitset.simple_test13 (0 ms)
+[ RUN      ] TestBitset.simple_test14
+00000000000000000000000000000001
+00000000000000000000000000000000
+1
+[       OK ] TestBitset.simple_test14 (0 ms)
+[ RUN      ] TestBitset.simple_test15
+1
+1
+[       OK ] TestBitset.simple_test15 (0 ms)
+[ RUN      ] TestBitset.simple_test16
+1
+1
+[       OK ] TestBitset.simple_test16 (0 ms)
+[ RUN      ] TestBitset.simple_test17
+1
+1
+[       OK ] TestBitset.simple_test17 (0 ms)
+[ RUN      ] TestBitset.simple_test18
+1
+[       OK ] TestBitset.simple_test18 (0 ms)
+[ RUN      ] TestBitset.simple_test19
+1
+[       OK ] TestBitset.simple_test19 (0 ms)
+[ RUN      ] TestBitset.simple_test20
+1
+[       OK ] TestBitset.simple_test20 (0 ms)
+[ RUN      ] TestBitset.simple_test21
+1
+[       OK ] TestBitset.simple_test21 (0 ms)
+[ RUN      ] TestBitset.simple_test22
+1
+[       OK ] TestBitset.simple_test22 (0 ms)
+[----------] 22 tests from TestBitset (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 22 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TestBitset" end time: Nov 02 20:09 Томск (зима)
+"TestBitset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 02 20:09 Томск (зима)

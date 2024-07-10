@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-c "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\config0.txt" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Attayama.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Shiroyama_mono_16bit.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\The_Attack_of_The_Dead_Men.wav"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-c "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\config0.txt" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Attayama.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Shiroyama_mono_16bit.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\The_Attack_of_The_Dead_Men.wav"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-c "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\config0.txt" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Attayama.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Shiroyama_mono_16bit.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\The_Attack_of_The_Dead_Men.wav"</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-c "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\config0.txt" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Attayama.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\Shiroyama_mono_16bit.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\The_Attack_of_The_Dead_Men.wav"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

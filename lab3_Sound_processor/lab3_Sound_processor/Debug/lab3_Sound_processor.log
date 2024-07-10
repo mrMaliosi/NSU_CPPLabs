@@ -1,0 +1,4 @@
+﻿  lab3_Sound_processor.cpp
+c:\users\владимир\desktop\универ\2 курс\ооп\vs\lab3_sound_processor\lab3_sound_processor\factory.h(51): warning C4244: инициализация: преобразование "std::streamoff" в "ul", возможна потеря данных
+c:\users\владимир\desktop\универ\2 курс\ооп\vs\lab3_sound_processor\lab3_sound_processor\factory.h(68): warning C4244: инициализация: преобразование "std::streamoff" в "ul", возможна потеря данных
+  lab3_Sound_processor.vcxproj -> C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor\Debug\lab3_Sound_processor.exe

@@ -1,0 +1,13 @@
+# ninja log v5
+8	991	720633675	bitset/CMakeFiles/Bitset.dir/bitset.obj	be13e251d036745a
+993	1106	720633675	bitset/libBitset.a	11df65abfb7c3deb
+28	2104	720633676	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.obj	9bf928609e23151e
+18	2549	720633677	googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.obj	dc03e8cf5e2db975
+2	2784	720633677	CMakeFiles/Tests.dir/Tests/test.obj	5ef328f587793efb
+12	4665	720633679	googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.obj	13e84789ada54ad3
+23	11209	720633685	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.obj	3629713da569cdda
+11212	14649	720633689	lib/libgtest.a	63b062b89fb4dd39
+14664	14741	720633689	lib/libgtest_main.a	dc802a42a4958ddf
+14655	15140	720633689	lib/libgmock.a	e53464b02acfc7d4
+15141	15217	720633690	lib/libgmock_main.a	1fb1f6b9595aba6
+14649	18446	720633693	Tests.exe	d44fab802bfa19bc

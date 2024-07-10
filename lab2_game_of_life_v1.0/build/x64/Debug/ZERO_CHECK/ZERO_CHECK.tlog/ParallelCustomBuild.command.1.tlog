@@ -1,0 +1,10 @@
+^C:\USERS\ВЛАДИМИР\DESKTOP\УНИВЕР\2 КУРС\ООП\MALINOVSKIY_NACHALO\LAB2_GAME_OF_LIFE_V1.0\BUILD\CMAKEFILES\4E00986D6A6D34EF6138FFF80DF1A4F4\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab2_game_of_life_v1.0/build/lab1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

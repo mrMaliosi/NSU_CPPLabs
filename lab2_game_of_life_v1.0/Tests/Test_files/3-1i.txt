@@ -1,0 +1,9 @@
+#Life 1.06
+#N C:\tests\universe.txt
+#R R3/S23
+0 0
+1 0
+0 1
+2 3
+3 2
+3 3

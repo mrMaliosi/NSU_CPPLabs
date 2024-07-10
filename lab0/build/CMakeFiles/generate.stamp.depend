@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/CMakeLists.txt
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/3.27.4/CMakeCCompiler.cmake
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/3.27.4/CMakeCXXCompiler.cmake
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/3.27.4/CMakeRCCompiler.cmake
+C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/CMakeFiles/3.27.4/CMakeSystem.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake

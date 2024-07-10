@@ -1,0 +1,1 @@
+"lab3_Sound_processor.exe" -c "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor_V0.5\Debug\config0.txt" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor_V0.5\Debug\zeroyama.wav" "C:\Users\Владимир\Desktop\Универ\2 курс\ООП\VS\lab3_Sound_processor_V0.5\Debug\Shiroyama_mono_16bit.wav"

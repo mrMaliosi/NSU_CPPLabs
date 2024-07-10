@@ -1,0 +1,10 @@
+^C:\USERS\ВЛАДИМИР\DESKTOP\УНИВЕР\2 КУРС\ООП\MALINOVSKIY_NACHALO\LAB0\BUILD\CMAKEFILES\909941EA1CC3DBFF35CCE7614AC4D0B0\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe "-SC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0" "-BC:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Владимир/Desktop/Универ/2 курс/ООП/Malinovskiy_nachalo/lab0/build/start.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
